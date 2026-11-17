@@ -1,125 +1,255 @@
 date,site,production
-2026-10-01,Pretoria Plant,111.5
-2026-10-01,Rustenburg Mill,81.7
-2026-10-01,Polokwane Depot,74.2
-2026-10-01,Bloemfontein Works,87.0
-2026-10-02,Pretoria Plant,121.7
-2026-10-02,Rustenburg Mill,89.9
-2026-10-02,Polokwane Depot,57.6
-2026-10-02,Bloemfontein Works,105.3
-2026-10-03,Pretoria Plant,97.8
-2026-10-03,Rustenburg Mill,92.5
-2026-10-03,Polokwane Depot,58.0
-2026-10-03,Bloemfontein Works,87.8
-2026-10-04,Pretoria Plant,116.4
-2026-10-04,Rustenburg Mill,107.4
-2026-10-04,Polokwane Depot,59.5
-2026-10-04,Bloemfontein Works,93.4
-2026-10-05,Pretoria Plant,126.1
-2026-10-05,Rustenburg Mill,112.0
-2026-10-05,Polokwane Depot,72.2
-2026-10-05,Bloemfontein Works,100.7
-2026-10-06,Pretoria Plant,142.9
-2026-10-06,Rustenburg Mill,77.8
-2026-10-06,Polokwane Depot,80.0
-2026-10-06,Bloemfontein Works,96.2
-2026-10-07,Pretoria Plant,102.9
-2026-10-07,Rustenburg Mill,80.5
-2026-10-07,Polokwane Depot,64.6
-2026-10-07,Bloemfontein Works,118.3
-2026-10-08,Pretoria Plant,104.7
-2026-10-08,Rustenburg Mill,98.1
-2026-10-08,Polokwane Depot,73.9
-2026-10-08,Bloemfontein Works,99.6
-2026-10-09,Pretoria Plant,122.3
-2026-10-09,Rustenburg Mill,78.4
-2026-10-09,Polokwane Depot,57.7
-2026-10-09,Bloemfontein Works,92.7
-2026-10-10,Pretoria Plant,128.7
-2026-10-10,Rustenburg Mill,92.2
-2026-10-10,Polokwane Depot,64.8
-2026-10-10,Bloemfontein Works,108.6
-2026-10-11,Pretoria Plant,117.8
-2026-10-11,Rustenburg Mill,87.4
-2026-10-11,Polokwane Depot,78.2
-2026-10-11,Bloemfontein Works,113.4
-2026-10-12,Pretoria Plant,107.7
-2026-10-12,Rustenburg Mill,97.8
-2026-10-12,Polokwane Depot,70.7
-2026-10-12,Bloemfontein Works,120.8
-2026-10-13,Pretoria Plant,131.0
-2026-10-13,Rustenburg Mill,86.9
-2026-10-13,Polokwane Depot,83.4
-2026-10-13,Bloemfontein Works,89.0
-2026-10-14,Pretoria Plant,116.1
-2026-10-14,Rustenburg Mill,104.8
-2026-10-14,Polokwane Depot,60.3
-2026-10-14,Bloemfontein Works,104.5
-2026-10-15,Pretoria Plant,97.9
-2026-10-15,Rustenburg Mill,101.4
-2026-10-15,Polokwane Depot,77.4
-2026-10-15,Bloemfontein Works,108.1
-2026-10-16,Pretoria Plant,138.0
-2026-10-16,Rustenburg Mill,87.9
-2026-10-16,Polokwane Depot,75.5
-2026-10-16,Bloemfontein Works,109.0
-2026-10-17,Pretoria Plant,123.8
-2026-10-17,Rustenburg Mill,93.3
-2026-10-17,Polokwane Depot,79.5
-2026-10-17,Bloemfontein Works,123.7
-2026-10-18,Pretoria Plant,118.8
-2026-10-18,Rustenburg Mill,101.2
-2026-10-18,Polokwane Depot,57.7
-2026-10-18,Bloemfontein Works,113.5
-2026-10-19,Pretoria Plant,127.1
-2026-10-19,Rustenburg Mill,113.7
-2026-10-19,Polokwane Depot,79.0
-2026-10-19,Bloemfontein Works,96.0
-2026-10-20,Pretoria Plant,114.5
-2026-10-20,Rustenburg Mill,101.4
-2026-10-20,Polokwane Depot,56.6
-2026-10-20,Bloemfontein Works,103.4
-2026-10-21,Pretoria Plant,104.1
-2026-10-21,Rustenburg Mill,80.4
-2026-10-21,Polokwane Depot,57.7
-2026-10-21,Bloemfontein Works,116.3
-2026-10-22,Pretoria Plant,102.2
-2026-10-22,Rustenburg Mill,85.4
-2026-10-22,Polokwane Depot,66.9
-2026-10-22,Bloemfontein Works,120.6
-2026-10-23,Pretoria Plant,99.9
-2026-10-23,Rustenburg Mill,93.1
-2026-10-23,Polokwane Depot,71.4
-2026-10-23,Bloemfontein Works,121.1
-2026-10-24,Pretoria Plant,135.3
-2026-10-24,Rustenburg Mill,108.8
-2026-10-24,Polokwane Depot,63.8
-2026-10-24,Bloemfontein Works,101.4
-2026-10-25,Pretoria Plant,113.2
-2026-10-25,Rustenburg Mill,109.6
-2026-10-25,Polokwane Depot,82.8
-2026-10-25,Bloemfontein Works,90.3
-2026-10-26,Pretoria Plant,104.5
-2026-10-26,Rustenburg Mill,84.8
-2026-10-26,Polokwane Depot,62.5
-2026-10-26,Bloemfontein Works,104.4
-2026-10-27,Pretoria Plant,124.3
-2026-10-27,Rustenburg Mill,86.0
-2026-10-27,Polokwane Depot,56.1
-2026-10-27,Bloemfontein Works,101.6
-2026-10-28,Pretoria Plant,113.7
-2026-10-28,Rustenburg Mill,97.5
-2026-10-28,Polokwane Depot,82.7
-2026-10-28,Bloemfontein Works,113.0
-2026-10-29,Pretoria Plant,120.7
-2026-10-29,Rustenburg Mill,99.5
-2026-10-29,Polokwane Depot,74.9
-2026-10-29,Bloemfontein Works,86.3
-2026-10-30,Pretoria Plant,139.2
-2026-10-30,Rustenburg Mill,105.6
-2026-10-30,Polokwane Depot,80.5
-2026-10-30,Bloemfontein Works,117.5
-2026-10-31,Pretoria Plant,114.8
-2026-10-31,Rustenburg Mill,91.2
-2026-10-31,Polokwane Depot,58.9
-2026-10-31,Bloemfontein Works,110.6
+2026/10/01,Pretoria Plant,111.5
+2026/10/01,Rustenburg Mill,81.7
+2026/10/01,Polokwane Depot,74.2
+2026/10/01,Bloemfontein Works,87
+2026/10/02,Pretoria Plant,121.7
+2026/10/02,Rustenburg Mill,89.9
+2026/10/02,Polokwane Depot,57.6
+2026/10/02,Bloemfontein Works,105.3
+2026/10/03,Pretoria Plant,97.8
+2026/10/03,Rustenburg Mill,92.5
+2026/10/03,Polokwane Depot,58
+2026/10/03,Bloemfontein Works,87.8
+2026/10/04,Pretoria Plant,116.4
+2026/10/04,Rustenburg Mill,107.4
+2026/10/04,Polokwane Depot,59.5
+2026/10/04,Bloemfontein Works,93.4
+2026/10/05,Pretoria Plant,126.1
+2026/10/05,Rustenburg Mill,112
+2026/10/05,Polokwane Depot,72.2
+2026/10/05,Bloemfontein Works,100.7
+2026/10/06,Pretoria Plant,142.9
+2026/10/06,Rustenburg Mill,77.8
+2026/10/06,Polokwane Depot,80
+2026/10/06,Bloemfontein Works,96.2
+2026/10/07,Pretoria Plant,102.9
+2026/10/07,Rustenburg Mill,80.5
+2026/10/07,Polokwane Depot,64.6
+2026/10/07,Bloemfontein Works,118.3
+2026/10/08,Pretoria Plant,104.7
+2026/10/08,Rustenburg Mill,98.1
+2026/10/08,Polokwane Depot,73.9
+2026/10/08,Bloemfontein Works,99.6
+2026/10/09,Pretoria Plant,122.3
+2026/10/09,Rustenburg Mill,78.4
+2026/10/09,Polokwane Depot,57.7
+2026/10/09,Bloemfontein Works,92.7
+2026/10/10,Pretoria Plant,128.7
+2026/10/10,Rustenburg Mill,92.2
+2026/10/10,Polokwane Depot,64.8
+2026/10/10,Bloemfontein Works,108.6
+2026/10/11,Pretoria Plant,117.8
+2026/10/11,Rustenburg Mill,87.4
+2026/10/11,Polokwane Depot,78.2
+2026/10/11,Bloemfontein Works,113.4
+2026/10/12,Pretoria Plant,107.7
+2026/10/12,Rustenburg Mill,97.8
+2026/10/12,Polokwane Depot,70.7
+2026/10/12,Bloemfontein Works,120.8
+2026/10/13,Pretoria Plant,131
+2026/10/13,Rustenburg Mill,86.9
+2026/10/13,Polokwane Depot,83.4
+2026/10/13,Bloemfontein Works,89
+2026/10/14,Pretoria Plant,116.1
+2026/10/14,Rustenburg Mill,104.8
+2026/10/14,Polokwane Depot,60.3
+2026/10/14,Bloemfontein Works,104.5
+2026/10/15,Pretoria Plant,97.9
+2026/10/15,Rustenburg Mill,101.4
+2026/10/15,Polokwane Depot,77.4
+2026/10/15,Bloemfontein Works,108.1
+2026/10/16,Pretoria Plant,138
+2026/10/16,Rustenburg Mill,87.9
+2026/10/16,Polokwane Depot,75.5
+2026/10/16,Bloemfontein Works,109
+2026/10/17,Pretoria Plant,123.8
+2026/10/17,Rustenburg Mill,93.3
+2026/10/17,Polokwane Depot,79.5
+2026/10/17,Bloemfontein Works,123.7
+2026/10/18,Pretoria Plant,118.8
+2026/10/18,Rustenburg Mill,101.2
+2026/10/18,Polokwane Depot,57.7
+2026/10/18,Bloemfontein Works,113.5
+2026/10/19,Pretoria Plant,127.1
+2026/10/19,Rustenburg Mill,113.7
+2026/10/19,Polokwane Depot,79
+2026/10/19,Bloemfontein Works,96
+2026/10/20,Pretoria Plant,114.5
+2026/10/20,Rustenburg Mill,101.4
+2026/10/20,Polokwane Depot,56.6
+2026/10/20,Bloemfontein Works,103.4
+2026/10/21,Pretoria Plant,104.1
+2026/10/21,Rustenburg Mill,80.4
+2026/10/21,Polokwane Depot,57.7
+2026/10/21,Bloemfontein Works,116.3
+2026/10/22,Pretoria Plant,102.2
+2026/10/22,Rustenburg Mill,85.4
+2026/10/22,Polokwane Depot,66.9
+2026/10/22,Bloemfontein Works,120.6
+2026/10/23,Pretoria Plant,99.9
+2026/10/23,Rustenburg Mill,93.1
+2026/10/23,Polokwane Depot,71.4
+2026/10/23,Bloemfontein Works,121.1
+2026/10/24,Pretoria Plant,135.3
+2026/10/24,Rustenburg Mill,108.8
+2026/10/24,Polokwane Depot,63.8
+2026/10/24,Bloemfontein Works,101.4
+2026/10/25,Pretoria Plant,113.2
+2026/10/25,Rustenburg Mill,109.6
+2026/10/25,Polokwane Depot,82.8
+2026/10/25,Bloemfontein Works,90.3
+2026/10/26,Pretoria Plant,104.5
+2026/10/26,Rustenburg Mill,84.8
+2026/10/26,Polokwane Depot,62.5
+2026/10/26,Bloemfontein Works,104.4
+2026/10/27,Pretoria Plant,124.3
+2026/10/27,Rustenburg Mill,86
+2026/10/27,Polokwane Depot,56.1
+2026/10/27,Bloemfontein Works,101.6
+2026/10/28,Pretoria Plant,113.7
+2026/10/28,Rustenburg Mill,97.5
+2026/10/28,Polokwane Depot,82.7
+2026/10/28,Bloemfontein Works,113
+2026/10/29,Pretoria Plant,120.7
+2026/10/29,Rustenburg Mill,99.5
+2026/10/29,Polokwane Depot,74.9
+2026/10/29,Bloemfontein Works,86.3
+2026/10/30,Pretoria Plant,139.2
+2026/10/30,Rustenburg Mill,105.6
+2026/10/30,Polokwane Depot,80.5
+2026/10/30,Bloemfontein Works,117.5
+2026/10/31,Pretoria Plant,114.8
+2026/10/31,Rustenburg Mill,91.2
+2026/10/31,Polokwane Depot,58.9
+2026/10/31,Bloemfontein Works,110.6
+2026/11/01,AFRGRI,77.55014228
+2026/11/01,Nutri Feeds,38.16338146
+2026/11/01,ALZU,72.96924929
+2026/11/01,CIM,67.68413886
+2026/11/01,Eagles Rock,71.83019424
+2026/11/01,Qpro Feeds,51.24230696
+2026/11/01,Trouw Nutrition,27.31694076
+2026/11/01,SA Premix,49.94992227
+2026/11/01,Namibia Mills,28.30962262
+2026/11/01,Premier Foods FMCG,91.46842475
+2026/11/02,AFRGRI,48.58645753
+2026/11/02,Nutri Feeds,62.62697855
+2026/11/02,ALZU,82.1516794
+2026/11/02,CIM,65.88411353
+2026/11/02,Eagles Rock,91.30124529
+2026/11/02,Qpro Feeds,69.70837963
+2026/11/02,Trouw Nutrition,84.95212949
+2026/11/02,SA Premix,81.44000404
+2026/11/02,Namibia Mills,6.127891322
+2026/11/02,Premier Foods FMCG,74.15118947
+2026/11/03,AFRGRI,45.00575288
+2026/11/03,Nutri Feeds,97.48135344
+2026/11/03,ALZU,29.07376377
+2026/11/03,CIM,60.86027235
+2026/11/03,Eagles Rock,37.67164721
+2026/11/03,Qpro Feeds,47.02599054
+2026/11/03,Trouw Nutrition,95.19187407
+2026/11/03,SA Premix,74.52842335
+2026/11/03,Namibia Mills,99.92881405
+2026/11/03,Premier Foods FMCG,55.55558028
+2026/11/04,AFRGRI,77.7540119
+2026/11/04,Nutri Feeds,80.70989049
+2026/11/04,ALZU,61.44685733
+2026/11/04,CIM,92.50255547
+2026/11/04,Eagles Rock,81.20880798
+2026/11/04,Qpro Feeds,72.93684166
+2026/11/04,Trouw Nutrition,4.261556691
+2026/11/04,SA Premix,81.580285
+2026/11/04,Namibia Mills,23.99927609
+2026/11/04,Premier Foods FMCG,9.74349039
+2026/11/05,AFRGRI,89.54168919
+2026/11/05,Nutri Feeds,8.77592859
+2026/11/05,ALZU,51.84232081
+2026/11/05,CIM,98.3784986
+2026/11/05,Eagles Rock,74.6202803
+2026/11/05,Qpro Feeds,82.63629104
+2026/11/05,Trouw Nutrition,13.1519321
+2026/11/05,SA Premix,98.65187446
+2026/11/05,Namibia Mills,4.039485999
+2026/11/05,Premier Foods FMCG,17.71098952
+2026/11/06,AFRGRI,78.0871255
+2026/11/06,Nutri Feeds,50.72099119
+2026/11/06,ALZU,95.38949948
+2026/11/06,CIM,18.46086518
+2026/11/06,Eagles Rock,38.24157375
+2026/11/06,Qpro Feeds,79.35545493
+2026/11/06,Trouw Nutrition,12.63759656
+2026/11/06,SA Premix,81.83286435
+2026/11/06,Namibia Mills,3.957991033
+2026/11/06,Premier Foods FMCG,53.30348266
+2026/11/07,AFRGRI,31.92816468
+2026/11/07,Nutri Feeds,63.09253836
+2026/11/07,ALZU,80.24353047
+2026/11/07,CIM,59.84203753
+2026/11/07,Eagles Rock,50.86640802
+2026/11/07,Qpro Feeds,45.59052242
+2026/11/07,Trouw Nutrition,50.93583807
+2026/11/07,SA Premix,54.11121764
+2026/11/07,Namibia Mills,73.12274071
+2026/11/07,Premier Foods FMCG,67.7823916
+2026/11/08,AFRGRI,35.166368
+2026/11/08,Nutri Feeds,86.18395553
+2026/11/08,ALZU,96.99842626
+2026/11/08,CIM,80.84041498
+2026/11/08,Eagles Rock,31.53545937
+2026/11/08,Qpro Feeds,29.58051086
+2026/11/08,Trouw Nutrition,59.39762083
+2026/11/08,SA Premix,78.21028124
+2026/11/08,Namibia Mills,7.557860634
+2026/11/08,Premier Foods FMCG,31.55675575
+2026/11/09,AFRGRI,79.15773219
+2026/11/09,Nutri Feeds,81.8934496
+2026/11/09,ALZU,89.91776916
+2026/11/09,CIM,64.91991159
+2026/11/09,Eagles Rock,16.29023493
+2026/11/09,Qpro Feeds,89.80576664
+2026/11/09,Trouw Nutrition,21.41779662
+2026/11/09,SA Premix,12.70402308
+2026/11/09,Namibia Mills,44.71794075
+2026/11/09,Premier Foods FMCG,13.60662896
+2026/11/10,AFRGRI,17.05443273
+2026/11/10,Nutri Feeds,56.70377113
+2026/11/10,ALZU,61.96428699
+2026/11/10,CIM,66.03438172
+2026/11/10,Eagles Rock,64.80991618
+2026/11/10,Qpro Feeds,86.40660426
+2026/11/10,Trouw Nutrition,17.47944766
+2026/11/10,SA Premix,59.15455545
+2026/11/10,Namibia Mills,96.27994833
+2026/11/10,Premier Foods FMCG,30.6281562
+2026/11/11,AFRGRI,33.4832
+2026/11/11,Nutri Feeds,35.76841298
+2026/11/11,ALZU,75.06656345
+2026/11/11,CIM,5.958737788
+2026/11/11,Eagles Rock,52.91834204
+2026/11/11,Qpro Feeds,79.96455242
+2026/11/11,Trouw Nutrition,75.88048126
+2026/11/11,SA Premix,72.8121096
+2026/11/11,Namibia Mills,5.387922184
+2026/11/11,Premier Foods FMCG,6.362678158
+2026/11/12,AFRGRI,93.07829805
+2026/11/12,Nutri Feeds,2.474290288
+2026/11/12,ALZU,14.19997886
+2026/11/12,CIM,35.48506118
+2026/11/12,Eagles Rock,27.45082033
+2026/11/12,Qpro Feeds,60.39250061
+2026/11/12,Trouw Nutrition,64.15764355
+2026/11/12,SA Premix,90.80112777
+2026/11/12,Namibia Mills,67.65020989
+2026/11/12,Premier Foods FMCG,27.62510239
+2026/11/13,AFRGRI,22.4386108
+2026/11/13,Nutri Feeds,14.15152493
+2026/11/13,ALZU,62.13385397
+2026/11/13,CIM,28.42879354
+2026/11/13,Eagles Rock,99.56573763
+2026/11/13,Qpro Feeds,77.72370409
+2026/11/13,Trouw Nutrition,71.4319693
+2026/11/13,SA Premix,6.747912604
+2026/11/13,Namibia Mills,11.61605685
+2026/11/13,Premier Foods FMCG,47.22795
