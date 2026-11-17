@@ -88,3 +88,16 @@ buildHeader();
 wireLogin();
 wireContactForm();
 document.getElementById("year").textContent = new Date().getFullYear();
+
+// Logo strip: repeat the logos twice more so the slow scroll loops without a gap
+document.querySelectorAll(".logo-track").forEach(track => {
+  const originals = [...track.children];
+  for (let n = 0; n < 2; n++) {
+    originals.forEach(img => {
+      const copy = img.cloneNode(true);
+      copy.alt = "";
+      copy.setAttribute("aria-hidden", "true");
+      track.appendChild(copy);
+    });
+  }
+});
