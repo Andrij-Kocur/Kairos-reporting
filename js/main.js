@@ -24,7 +24,7 @@ function buildHeader() {
   document.getElementById("site-header").innerHTML = `
     <header class="site-header">
       <div class="container header-inner">
-        <a class="logo" href="index.html">KAIROS</a>
+        <a class="logo" href="index.html"><img src="img/kairos-logo.webp" alt="Kairos" height="40"></a>
         <nav class="nav">${links}${account}</nav>
       </div>
     </header>

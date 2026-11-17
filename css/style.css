@@ -20,14 +20,17 @@ a { color: var(--steel); }
 .section { padding: 56px 0; }
 [hidden] { display: none !important; }
 
-/* Header */
-.site-header { background: var(--graphite); color: var(--white); border-bottom: 4px solid var(--amber); }
-.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; }
-.logo { font-weight: 800; font-size: 1.2rem; color: var(--white); text-decoration: none; }
+/* Header (white so the blue Kairos logo is clear) */
+.site-header { background: var(--white); color: var(--graphite); border-bottom: 4px solid var(--amber); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; }
+.logo { display: block; line-height: 0; }
+.logo img { display: block; height: 40px; width: auto; }
 .nav { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
-.nav a { color: #cfd6dc; text-decoration: none; padding: 8px 12px; border-radius: 4px; }
-.nav a:hover, .nav a.active { color: var(--white); background: rgba(255,255,255,.12); }
-.nav .user { color: #9aa6b1; font-size: .85rem; margin-left: 8px; }
+.nav a { color: var(--graphite); text-decoration: none; padding: 8px 12px; border-radius: 4px; font-weight: 600; }
+.nav a:hover, .nav a.active { background: var(--concrete); color: var(--steel); }
+.nav .user { color: var(--muted); font-size: .85rem; margin-left: 8px; }
+.site-header .btn-outline { border-color: var(--graphite); color: var(--graphite); }
+.site-header .btn-outline:hover { background: var(--concrete); }
 
 /* Buttons */
 .btn { display: inline-block; padding: 10px 20px; border: 2px solid transparent; border-radius: 4px; font: inherit; font-weight: 600; cursor: pointer; text-decoration: none; }
@@ -40,8 +43,17 @@ a { color: var(--steel); }
 :focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
 
 /* Hero and page titles */
-.hero { background: var(--graphite); color: var(--white); padding: 90px 0; }
-.hero p { max-width: 620px; font-size: 1.15rem; color: #cfd6dc; margin-bottom: 28px; }
+/* To change the home page photo, replace img/hero-background.webp (or edit the url below) */
+.hero {
+  color: var(--white);
+  padding: 150px 0 130px;
+  background:
+    linear-gradient(90deg, rgba(20,26,32,.82) 0%, rgba(20,26,32,.55) 55%, rgba(20,26,32,.2) 100%),
+    url("../img/hero-background.webp") center 62% / cover no-repeat;
+  background-color: var(--graphite);
+}
+.hero h1, .hero p { text-shadow: 0 1px 12px rgba(0,0,0,.35); }
+.hero p { max-width: 620px; font-size: 1.15rem; color: #eef0f2; margin-bottom: 28px; }
 .hero .btn { margin: 0 8px 8px 0; }
 .page-title { background: var(--concrete); padding: 36px 0 20px; border-bottom: 1px solid var(--line); }
 .page-title h1 { margin: 0; font-size: 2.2rem; }
@@ -89,7 +101,7 @@ tfoot td { font-weight: 700; background: var(--concrete); }
 /* Mobile */
 @media (max-width: 760px) {
   .two-col, .charts { grid-template-columns: 1fr; }
-  .hero { padding: 60px 0; }
+  .hero { padding: 80px 0 70px; }
 }
 
 /* About page: client site lists */
