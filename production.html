@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Production Reports | Company Name</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-title"><div class="container"><h1>Production Reports</h1></div></section>
+
+    <section class="section">
+      <div class="container">
+        <p id="status" class="notice">Loading production data…</p>
+
+        <div id="dashboard" hidden>
+          <!-- Date filter (hidden automatically if the CSV has no date column) -->
+          <div class="filters" id="date-filter">
+            <label>From <input type="date" id="date-from"></label>
+            <label>To <input type="date" id="date-to"></label>
+            <button class="btn btn-outline-dark" id="date-reset" type="button">Reset</button>
+          </div>
+
+          <div class="kpis">
+            <div class="kpi"><span class="kpi-label">Total production</span><span class="kpi-value" id="kpi-total">–</span></div>
+            <div class="kpi"><span class="kpi-label">Sites</span><span class="kpi-value" id="kpi-sites">–</span></div>
+            <div class="kpi"><span class="kpi-label">Top site</span><span class="kpi-value" id="kpi-top">–</span></div>
+            <div class="kpi"><span class="kpi-label">Average per site</span><span class="kpi-value" id="kpi-avg">–</span></div>
+          </div>
+
+          <div class="charts">
+            <div class="panel"><h3>Total production by site</h3><div class="chart-box"><canvas id="chart-sites"></canvas></div></div>
+            <div class="panel"><h3>Share of total</h3><div class="chart-box"><canvas id="chart-share"></canvas></div></div>
+            <div class="panel wide" id="trend-panel"><h3>Production over time</h3><div class="chart-box"><canvas id="chart-trend"></canvas></div></div>
+          </div>
+
+          <div class="panel">
+            <h3>Site summary</h3>
+            <div class="table-wrap"><table id="table-summary"></table></div>
+          </div>
+
+          <div class="panel">
+            <h3>Production data</h3>
+            <div class="table-wrap tall"><table id="table-data"></table></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; <span id="year"></span> Company Name. All rights reserved.</div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="js/login.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/production.js"></script>
+</body>
+</html>
