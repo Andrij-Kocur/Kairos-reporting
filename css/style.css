@@ -91,3 +91,9 @@ tfoot td { font-weight: 700; background: var(--concrete); }
   .two-col, .charts { grid-template-columns: 1fr; }
   .hero { padding: 60px 0; }
 }
+
+/* About page: client site lists */
+.clients { background: #f7f8f9; border-top: 1px solid var(--line); }
+.site-list { margin: 0; padding-left: 18px; color: var(--muted); }
+.card h3 { font-size: 1.05rem; margin-bottom: 0; }
+.card h3 + .site-list { margin-top: 8px; }
