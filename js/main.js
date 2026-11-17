@@ -3,7 +3,8 @@
 const PAGES = [
   { file: "index.html",    label: "Home" },
   { file: "about.html",    label: "About Us" },
-  { file: "projects.html", label: "Projects" },
+  { file: "systems.html",  label: "Systems" },
+  { file: "how-automill-works.html", label: "How Automill Works" },
   { file: "contact.html",  label: "Contact Us" }
 ];
 const PRODUCTION_PAGE = { file: "production.html", label: "Production Reports" };

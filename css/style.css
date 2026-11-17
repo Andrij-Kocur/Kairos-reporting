@@ -42,21 +42,23 @@ a { color: var(--steel); }
 .btn-sm { padding: 6px 14px; }
 :focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
 
-/* Hero and page titles */
-/* To change the home page photo, replace img/hero-background.webp (or edit the url below) */
-.hero {
+/* Hero and page titles: every page uses the same photo */
+/* To change the photo, replace img/hero-background.webp (or edit the url below) */
+.hero, .page-title {
   color: var(--white);
-  padding: 150px 0 130px;
   background:
     linear-gradient(90deg, rgba(20,26,32,.82) 0%, rgba(20,26,32,.55) 55%, rgba(20,26,32,.2) 100%),
     url("../img/hero-background.webp") center 62% / cover no-repeat;
   background-color: var(--graphite);
 }
-.hero h1, .hero p { text-shadow: 0 1px 12px rgba(0,0,0,.35); }
+.hero { padding: 150px 0 130px; }
+.hero h1, .hero p, .page-title h1, .page-title p { text-shadow: 0 1px 12px rgba(0,0,0,.35); }
+.hero p { text-shadow: 0 1px 12px rgba(0,0,0,.35); }
 .hero p { max-width: 620px; font-size: 1.15rem; color: #eef0f2; margin-bottom: 28px; }
 .hero .btn { margin: 0 8px 8px 0; }
-.page-title { background: var(--concrete); padding: 36px 0 20px; border-bottom: 1px solid var(--line); }
-.page-title h1 { margin: 0; font-size: 2.2rem; }
+.page-title { padding: 64px 0 56px; border-bottom: 4px solid var(--amber); }
+.page-title h1 { margin: 0; font-size: clamp(2rem, 4vw, 2.8rem); }
+.page-title p { margin: 10px 0 0; max-width: 620px; color: #eef0f2; font-size: 1.1rem; }
 
 /* Cards and grids */
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
@@ -102,6 +104,7 @@ tfoot td { font-weight: 700; background: var(--concrete); }
 @media (max-width: 760px) {
   .two-col, .charts { grid-template-columns: 1fr; }
   .hero { padding: 80px 0 70px; }
+  .page-title { padding: 44px 0 36px; }
 }
 
 /* About page: client site lists */
@@ -109,3 +112,39 @@ tfoot td { font-weight: 700; background: var(--concrete); }
 .site-list { margin: 0; padding-left: 18px; color: var(--muted); }
 .card h3 { font-size: 1.05rem; margin-bottom: 0; }
 .card h3 + .site-list { margin-top: 8px; }
+
+/* Smooth jumping between sections */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.process, .sys { scroll-margin-top: 64px; }
+
+/* Quick-jump bar (Systems and How Automill Works pages) */
+.jump { position: sticky; top: 0; z-index: 5; background: var(--white); border-bottom: 1px solid var(--line); }
+.jump .container { display: flex; gap: 8px; overflow-x: auto; padding-top: 10px; padding-bottom: 10px; }
+.jump a { white-space: nowrap; padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--graphite); font-weight: 600; font-size: .9rem; text-decoration: none; }
+.jump a:hover { background: var(--amber); border-color: var(--amber); }
+
+/* How Automill Works: one band per process, text over its illustration */
+.process { position: relative; color: var(--white); padding: 90px 0; background-color: #1c2a36; background-size: cover; background-position: center right; border-bottom: 1px solid rgba(255,255,255,.08); }
+.process::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16,22,28,.9) 0%, rgba(16,22,28,.65) 50%, rgba(16,22,28,.1) 100%); }
+.process .container { position: relative; }
+.process h2 { font-size: clamp(1.8rem, 3.5vw, 2.4rem); margin-bottom: .3em; }
+.process .tagline { max-width: 520px; font-size: 1.2rem; color: var(--amber); font-weight: 600; margin: 0 0 14px; }
+.process ul { max-width: 500px; margin: 0; padding-left: 20px; }
+.process li { margin-bottom: 6px; }
+.process li::marker { color: var(--amber); }
+.cta { text-align: center; background: var(--concrete); }
+
+/* Systems page */
+.sys { border-top: 1px solid var(--line); }
+.sys .grid { margin-bottom: 24px; }
+.sys .card p { font-size: .95rem; }
+.ref h3 { font-size: 1rem; }
+.ref th { position: static; background: none; width: 32%; font-weight: 600; vertical-align: top; }
+.to-top { margin: 0; text-align: right; font-size: .9rem; }
+
+@media (max-width: 760px) {
+  .process { padding: 64px 0; }
+  .process::before { background: rgba(16,22,28,.78); }
+  .ref th { width: 40%; }
+}
